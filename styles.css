@@ -4,22 +4,22 @@ img{max-width:100%}
 [hidden]{display:none!important}
 /* Identidad Ecométrica Data */
 :root{
-  --ground:#F2F1F6;
+  --ground:#F3F8F7;
   --surface:#FFFFFF;
-  --ink:#15141C;
-  --ink-2:#45424F;
-  --muted:#6E6A7A;
-  --line:#E0DDE8;
-  --deep:#2A1B4D;
-  --deep-2:#35245C;
-  --deep-ink:#F2F1F6;
-  --deep-muted:#C2B5E3;
-  --accent:#0B7A58;
-  --accent-soft:#DDF5EC;
-  --amber:#7CF0C5;
-  --amber-ink:#5B41CF;
-  --amber-soft:#ECE7FF;
-  --plum:#6A52E0;
+  --ink:#0F2429;
+  --ink-2:#3C5358;
+  --muted:#5F777B;
+  --line:#D8E6E4;
+  --deep:#0B3C49;
+  --deep-2:#0F4A58;
+  --deep-ink:#EEF8F7;
+  --deep-muted:#A9CBCB;
+  --accent:#0E7C74;
+  --accent-soft:#DCF3EF;
+  --amber:#FF8A65;
+  --amber-ink:#C2461F;
+  --amber-soft:#FFE8DF;
+  --plum:#0F6E7A;
   --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
   --body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
   --mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -28,16 +28,16 @@ img{max-width:100%}
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     color-scheme:dark;
-    --ground:#150F24; --surface:#20172F; --ink:#F0EEF6; --ink-2:#C4BFD3; --muted:#9690A8;
-    --line:#2E2B3A; --deep:#1C1236; --deep-2:#251845; --deep-ink:#F0EEF6; --deep-muted:#A9A3BD;
-    --accent:#7CF0C5; --accent-soft:#1B3A30; --amber:#7CF0C5; --amber-ink:#B8A4FF; --amber-soft:#2A2342; --plum:#B8A4FF;
+    --ground:#0A1F24; --surface:#11303A; --ink:#EAF5F4; --ink-2:#B9D0D0; --muted:#86A3A6;
+    --line:#1F4550; --deep:#062A33; --deep-2:#0B3540; --deep-ink:#EAF5F4; --deep-muted:#9CC2C2;
+    --accent:#5EDBD0; --accent-soft:#123F42; --amber:#FF9C7A; --amber-ink:#FFB59C; --amber-soft:#3A2620; --plum:#5EDBD0;
   }
 }
 :root[data-theme="dark"]{
   color-scheme:dark;
-  --ground:#150F24; --surface:#20172F; --ink:#F0EEF6; --ink-2:#C4BFD3; --muted:#9690A8;
-  --line:#2E2B3A; --deep:#1C1236; --deep-2:#251845; --deep-ink:#F0EEF6; --deep-muted:#A9A3BD;
-  --accent:#7CF0C5; --accent-soft:#1B3A30; --amber:#7CF0C5; --amber-ink:#B8A4FF; --amber-soft:#2A2342; --plum:#B8A4FF;
+  --ground:#0A1F24; --surface:#11303A; --ink:#EAF5F4; --ink-2:#B9D0D0; --muted:#86A3A6;
+  --line:#1F4550; --deep:#062A33; --deep-2:#0B3540; --deep-ink:#EAF5F4; --deep-muted:#9CC2C2;
+  --accent:#5EDBD0; --accent-soft:#123F42; --amber:#FF9C7A; --amber-ink:#FFB59C; --amber-soft:#3A2620; --plum:#5EDBD0;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
